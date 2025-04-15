@@ -11,7 +11,7 @@
     const STORAGE_KEY = 'auto-save-content';
     const DEVICE_ID_KEY = 'device-id';
     const isMac = typeof navigator !== 'undefined' && /Mac/.test(navigator.platform);
-    const shortcutKey = isMac ? '⌘' : 'Ctrl';
+    const shortcutKey = isMac ? '⌘' : 'ctrl';
     
     let deviceId: string;
     
