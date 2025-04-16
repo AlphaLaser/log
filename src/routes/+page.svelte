@@ -131,7 +131,7 @@
         bind:value={content}
         on:input={handleInput}
         class="w-full h-[calc(100vh-4rem)] p-4 resize-none outline-none border-none font-mono bg-white text-gray-900"
-        placeholder="Start typing... your content will be automatically saved"
+        placeholder="just start typing :)"
     ></textarea>
     
     {#if showNotification}

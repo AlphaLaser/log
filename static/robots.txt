@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yaplog.tech/sitemap.xml
