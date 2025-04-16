@@ -29,7 +29,7 @@
                 .from('logs')
                 .select('*')
                 .eq('device_id', deviceId)
-                .order('timestamp', { ascending: true });
+                .order('timestamp', { ascending: false });
             
             if (error) {
                 console.error('Error fetching logs:', error);
